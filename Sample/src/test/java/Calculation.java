@@ -9,11 +9,18 @@ public class Calculation {
 		// TODO Auto-generated method stub
 		
 		int result = add(5,7);
-		System.out.println("result is :::"+result);
+		int res = substract(20,5);
+		System.out.println("result of add is :::"+result);
+		System.out.println("result of substract  is :::"+res);
 
 	}
 	
 	static int add(int x , int y)
+	{
+		return x+y;
+	}
+	
+	static int substract(int x , int y)
 	{
 		return x+y;
 	}
