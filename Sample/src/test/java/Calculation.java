@@ -12,6 +12,9 @@ public class Calculation {
 		int res = substract(20,5);
 		System.out.println("result of add is :::"+result);
 		System.out.println("result of substract  is :::"+res);
+		Service service = new Service();
+		String name = service.getUserName("ram");
+		System.out.println("My name is "+name);
 
 	}
 	
